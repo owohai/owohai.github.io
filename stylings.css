@@ -1,0 +1,36 @@
+/*
+    Imports 
+*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=Inter&display=swap');
+
+/*
+    Stylings
+*/
+body {
+    background-color: rgba(45, 47, 49, 1);
+    color:white;
+    font-family: Inter;
+    overflow: hidden;
+}
+
+.bannerImgRight {
+    display: inline-block;
+    position:absolute;
+    right: 0;   
+    margin-top: -7px; 
+    margin-left: 2%;
+}
+
+.bannerImgRight img {
+    height:100vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.test {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.test2 {
+    font-family: 'Inter';
+    color: gray;
+}
